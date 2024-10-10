@@ -39,7 +39,14 @@ body {
 }
 @media (max-width: 767px) {
     .container .box  {
+        width: 300px;
         font-size: 10px;
+    }
+}
+@media (max-width: 375px) {
+    .container .box .links-container .description {
+        font-size: 15px;
+        padding: 10px;
     }
 }
 .container .box img {
@@ -75,12 +82,19 @@ body {
 }
 .container .box .links-container .description {
     /* font-weight: 400; */
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding: 25px;
 }
+
 @media (max-width: 767px) {
     .container .box .links-container .description {
-        font-size: 10px;
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+@media (max-width: 375px) {
+    .container .box .links-container .description {
+        font-size: 15px;
         padding: 10px;
     }
 }
